@@ -1,12 +1,17 @@
-
-import HeroSection from "./components/HeroSection";
+import Intro from './components/Intro';
+import Navbar from './components/Navbar';
+import About from './components/About';
+import Projects from './components/Projects';
+import Contact from './components/Contact';
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col bg-[#121212]">
-      <div class="container mx-auto px-12 py-4">
-        <HeroSection />
-      </div>
-    </main>
+    <>
+      <Navbar />
+      <Intro />
+      <About />
+      <Projects />
+      <Contact />
+    </>
   );
 }
