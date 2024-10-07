@@ -17,7 +17,8 @@
 }
 
 body {
-  background: radial-gradient(circle at center, #1a1a1a, #0d0d0d, #000000);
+  --tw-bg-opacity: 1;
+    background-color: rgb(17 24 39 / var(--tw-bg-opacity)) /* #111827 */;
   color: #f5f5f5;
 }
 
@@ -26,3 +27,4 @@ body {
     text-wrap: balance;
   }
 }
+
